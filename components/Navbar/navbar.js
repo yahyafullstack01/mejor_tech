@@ -5,7 +5,7 @@ export default function header() {
 
     return (
         <div className={styles.container}>
-            <img src="/final.png"
+            <img src="/logo.png"
                 alt="The Logo of the company"
                 className="w-36"
             />
