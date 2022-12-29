@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    transition: ease-in-out 0.3s;
+    box-sizing: border-box;
+}
+
+
+
+.Container{
+    background: #000;
+}

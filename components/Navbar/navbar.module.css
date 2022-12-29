@@ -1,0 +1,9 @@
+.container{
+    display: flex;
+    background: rgba(0, 0, 0, 0.442);
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: absolute;
+}
+
