@@ -1,0 +1,63 @@
+.vid {
+    height: 120vw;
+}
+
+.container {
+    margin-top: 5%;
+}
+
+.header {
+    font-size: 5vw;
+    color: #907730;
+}
+
+.Grid {
+    grid-template-columns: repeat(3, auto);
+    column-gap: 2%;
+    row-gap: 2%;
+    margin: 5% 5%;
+}
+
+.pic {
+    height: 40%;
+    border-radius: 80%;
+    object-fit: cover;
+}
+
+.name {
+    margin-top: 2vw;
+    color: #907730;
+    font-size: 1.5vw;
+}
+
+.title {
+    font-size: 1.5vw;
+}
+
+.btn {
+    background: #907730;
+    border-radius: 10%;
+    padding: 5%;
+    margin-top: 5vw;
+    font-size: 1.5vw;
+}
+
+@media (max-width:1200px) {
+
+    .vid {
+        height: 190vw;
+    }
+
+    .Grid {
+        grid-template-columns: repeat(2, auto);
+        column-gap: 2%;
+        row-gap: 2%;
+        margin: 5% 5%;
+    }
+}
+
+@media (max-width:425px) {
+    .vid {
+        height: 100vh;
+    }
+}

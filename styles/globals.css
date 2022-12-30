@@ -9,8 +9,16 @@
     box-sizing: border-box;
 }
 
+html,body{
+    width: 100%;
+}
 
+option{
+    background: rgba(0, 0, 0, 0.725);
+}
 
-.Container{
-
+video{
+    width: 100%;
+    object-fit: cover;
+    height: 100vh;
 }
