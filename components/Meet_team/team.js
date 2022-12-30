@@ -2,7 +2,7 @@ import styles from "../Meet_team/team.module.css";
 
 export default function Team() {
     return (
-        <div className="flex flex-col relative">
+        <div className={`${styles.container} ${"flex flex-col relative"}`}>
             <video
                 autoPlay={true}
                 loop={true}
@@ -13,26 +13,27 @@ export default function Team() {
                 <source src="/team.mp4" type="video/mp4" />
             </video>
 
-            <div className={`${styles.container} ${"text-white absolute w-full"}`}>
+            <div className={`${styles.box} ${"text-white  w-full"}`}>
                 <h1 className={`${styles.header} ${"text-center"}`}>MEET THE TEAM</h1>
 
-                <div className={`${styles.Grid} ${"grid justify-between"}`}>
+                <div className={`${styles.Grid} ${""}`}>
 
-                    <div className="flex flex-col items-center  text-center ">
+                    <div className={`${styles.card} ${"flex flex-col items-center   text-center "}`}>
                         <img
                             src="/sevetlana.jpeg"
                             alt=""
-                            className={`${styles.pic} ${"w-80"}`}
+                            className={`${styles.pic} ${""}`}
                         />
                         <p className={styles.name}>LANA</p>
                         <span className={styles.title}>MARKETING DIRECTOR</span>
                         <button className={styles.btn}>Read Info</button>
+
                     </div>
-                    <div className="flex flex-col items-center text-center ">
+                    <div className={`${styles.card} ${"flex flex-col items-center  text-center "}`}>
                         <img
                             src="/yahya.jpeg"
                             alt=""
-                            className={`${styles.pic} ${"w-80"}`}
+                            className={`${styles.pic} ${""}`}
                         />
 
                         <p className={styles.name}>YAHYA</p>
@@ -43,11 +44,11 @@ export default function Team() {
                         <button className={styles.btn}>Read Info</button>
 
                     </div>
-                    <div className="flex flex-col items-center  text-center ">
+                    <div className={`${styles.card} ${"flex flex-col items-center  text-center "}`}>
                         <img
                             src="/samuel.jpeg"
                             alt=""
-                            className={`${styles.pic} ${"w-80"}`}
+                            className={`${styles.pic} ${""}`}
                         />
 
                         <p className={styles.name}>SAMUEL</p>
@@ -55,21 +56,21 @@ export default function Team() {
                         <button className={styles.btn}>Read Info</button>
 
                     </div>
-                    <div className="flex flex-col items-center  text-center ">
+                    <div className={`${styles.card} ${"flex flex-col items-center w-full  text-center "}`}>
                         <img
                             src="/sevetlana.jpeg"
                             alt=""
-                            className={`${styles.pic} ${"w-80"}`}
+                            className={`${styles.pic} ${""}`}
                         />
                         <p className={styles.name}>LANA</p>
                         <span className={styles.title}>MARKETING DIRECTOR</span>
                         <button className={styles.btn}>Read Info</button>
                     </div>
-                    <div className="flex flex-col items-center text-center ">
+                    <div className={`${styles.card} ${"flex flex-col items-center w-full  text-center "}`}>
                         <img
                             src="/samer.jpeg"
                             alt=""
-                            className={`${styles.pic} ${"w-80"}`}
+                            className={`${styles.pic} ${""}`}
                         />
 
                         <p className={styles.name}>SAMER</p>
@@ -77,11 +78,11 @@ export default function Team() {
                         <button className={styles.btn}>Read Info</button>
 
                     </div>
-                    <div className="flex flex-col items-center  text-center ">
+                    <div className={`${styles.card} ${"flex flex-col items-center w-full  text-center "}`}>
                         <img
                             src="/samuel.jpeg"
                             alt=""
-                            className={`${styles.pic} ${"w-80"}`}
+                            className={`${styles.pic} ${""}`}
                         />
 
                         <p className={styles.name}>SAMUEL</p>
@@ -89,6 +90,7 @@ export default function Team() {
                         <button className={styles.btn}>Read Info</button>
 
                     </div>
+
                 </div>
             </div>
         </div>

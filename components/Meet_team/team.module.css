@@ -1,24 +1,47 @@
-.vid {
-    height: 120vw;
+.container {
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
 
-.container {
+.vid {
+    display: block;
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100%;
+}
+
+
+
+.box {
     margin-top: 5%;
 }
 
 .header {
+    display: flex;
+    z-index: 1;
+    justify-content: center;
+    position: relative;
     font-size: 5vw;
     color: #907730;
 }
 
 .Grid {
-    grid-template-columns: repeat(3, auto);
+    display: grid;
+    justify-content: space-between;
+    position: relative;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
     column-gap: 2%;
     row-gap: 2%;
     margin: 5% 5%;
 }
 
+
 .pic {
+    display: flex;
+    width: 50%;
     height: 40%;
     border-radius: 80%;
     object-fit: cover;
@@ -44,20 +67,67 @@
 
 @media (max-width:1200px) {
 
-    .vid {
-        height: 190vw;
-    }
-
     .Grid {
-        grid-template-columns: repeat(2, auto);
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 1fr);
         column-gap: 2%;
         row-gap: 2%;
         margin: 5% 5%;
     }
 }
 
+@media(max-width:768px) {
+    .header {
+        font-size: 8vw;
+    }
+
+    .pic {
+        width: 60%;
+        height: 40%;
+    }
+
+    .name {
+        margin-top: 5vw;
+        font-size: 4vw;
+    }
+
+    .title {
+        font-size: 2vw;
+    }
+}
+
 @media (max-width:425px) {
-    .vid {
-        height: 100vh;
+
+    .Grid {
+        display: flex;
+        flex-direction: column;
+        row-gap: 20vw;
+        margin: 7% 2%;
+    }
+
+    .card {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pic {
+        width: 80%;
+        height: 65vw;
+        border-radius: 80%;
+        object-fit: cover;
+    }
+
+    .name {
+        font-size: 8vw;
+    }
+
+    .title {
+        font-size: 4vw;
+    }
+
+    .btn {
+        font-size: 5vw;
     }
 }
