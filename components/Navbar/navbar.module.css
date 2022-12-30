@@ -6,6 +6,10 @@
     left: 0;
 }
 
+.logo{
+    width: 10vw;
+}
+
 .navigation {
     font-family: 'Abel', sans-serif;
 }
@@ -43,8 +47,22 @@
 }
 
 
+@media(min-width:2000px){
+    .logo{
+        width: 10vw;
+    }
+
+    .navigation {
+        font-size: 2vw;
+    }
+}
+
 
 @media (max-width:768px) {
+
+    .logo{
+        width: 15vw;
+    }
     .container {
         margin: 1% 2%;
     }
@@ -63,6 +81,11 @@
 
 
 @media (max-width:425px) {
+
+    .logo{
+        width: 25vw;
+    }
+
     .container {
         margin:  1% 1%;
     }

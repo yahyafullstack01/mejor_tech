@@ -2,7 +2,7 @@
     display: flex;
     left: 50%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     z-index: 1;
     margin-top: 2%;
     row-gap: 4vw;
@@ -22,38 +22,21 @@
 
 @keyframes fadein {
     0% {
-      opacity: 0;
+        opacity: 0;
     }
+
     100% {
-      opacity: 1;
-    }
-  }
-
-
-/* @media (max-width:1200px) {
-
-}
-
-@media(max-width:768px){
- 
-    .H1{
-        font-size: 6vw;
+        opacity: 1;
     }
 }
 
-@media(max-width:637px){
-    .H1{
-        font-size: 6vw;
-    }
-} */
 
-
-@media(max-width:425px){
-    .H1{
+@media(max-width:425px) {
+    .H1 {
         font-size: 10vw;
     }
 
-    .H2{
+    .H2 {
         font-size: 4vw;
     }
 }

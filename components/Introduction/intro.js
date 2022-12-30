@@ -8,6 +8,7 @@ export default function Intro() {
                 loop={true}
                 muted={true}
                 controls={false}
+                className={styles.vid}
             >
                 <source src="/intro.mp4" type="video/mp4" />
             </video>

@@ -13,10 +13,10 @@ export default function header() {
                 <img
                     src="/logo.png"
                     alt="The Logo of the company"
-                    className="w-24 md:w-32	"
+                    className={`${styles.logo}`}
                 />
             </Link>
-            <nav className={"sm:flex md:w-96 w-72 justify-between hidden"}>
+            <nav className={"sm:flex md:w-96 w-72 2xl:w-4/12 justify-between hidden"}>
                 <Link passHref href="" className={`${styles.navigation} ${"text-sm md:text-xl  text-white"}`}>About</Link>
                 <Link passHref href="" className={`${styles.navigation} ${"text-sm md:text-xl  text-white"}`}>Our Work</Link>
                 <Link passHref href="" className={`${styles.navigation} ${"text-sm md:text-xl  text-white"}`}>Team</Link>
