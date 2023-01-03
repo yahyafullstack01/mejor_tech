@@ -46,6 +46,12 @@
     padding: 1% 5%;
 }
 
+.nav_mobile{
+    align-self: center;
+    width: fit-content;
+    margin-top: 10vw;
+}
+
 
 @media(min-width:2000px){
     .logo{

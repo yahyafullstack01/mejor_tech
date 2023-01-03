@@ -15,7 +15,7 @@ export default function header() {
                     alt="The Logo of the company"
                     className={`${styles.logo}`}
                 />
-            </Link>
+            </Link> 
             <nav className={"sm:flex md:w-96 w-72 2xl:w-4/12 justify-between hidden"}>
                 <Link passHref href="" className={`${styles.navigation} ${"text-sm md:text-xl  text-white"}`}>About</Link>
                 <Link passHref href="" className={`${styles.navigation} ${"text-sm md:text-xl  text-white"}`}>Our Work</Link>
@@ -47,7 +47,7 @@ export default function header() {
                     </a>
                 </div>
 
-                <div className="flex items-center justify-center flex-col gap-y-12 mt-2">
+                <div className={`${styles.nav_mobile} ${"flex items-center justify-center flex-col gap-y-12 mt-2"}`}>
                     <Link passHref href="" className="text-2xl text-center text-white  w-full">About</Link>
                     <Link passHref href="" className="text-2xl text-center text-white  w-full">Our Work</Link>
                     <Link passHref href="" className="text-2xl text-center text-white  w-full">Team</Link>
