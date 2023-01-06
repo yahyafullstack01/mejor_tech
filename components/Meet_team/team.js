@@ -20,35 +20,27 @@ export default function Team() {
 
             <div className={`${styles.box} ${"text-white  w-full"}`}>
                 <h1 className={`${styles.header} ${"text-center"}`}>MEET THE TEAM</h1>
-
-                <div className={`${styles.Grid} ${""}`}>
+                <div className={`${styles.Grid}`}>
                     <div style={{ transform: side ? "rotateY(180deg)" : "" }} className={`${styles.holder} ${"flex flex-col items-center text-center "}`}>
-
                         <div className={styles.back}>
                             <h1>back</h1>
-
                             <h1>orem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             </h1>
                             <button onClick={() => flip()} className={styles.btn}>Read Info</button>
-
                         </div>
-
                         <div className={styles.front}>
                             <img
                                 src="/sevetlana.jpeg"
                                 alt=""
-                                className={`${styles.pic} ${""}`}
+                                className={`${styles.pic}`}
                             />
                             <p className={styles.name}>LANA</p>
                             <span className={styles.title}>MARKETING DIRECTOR</span>
                             <button onClick={() => flip()} className={styles.btn}>Read Info</button>
                         </div>
-
-
                     </div>
                     <div style={{ transform: side2 ? "rotateY(180deg)" : "" }} className={`${styles.holder} ${"flex flex-col items-center  text-center "}`}>
-
                         <div className={styles.back}>
                             <h1>back</h1>
 
@@ -61,9 +53,8 @@ export default function Team() {
                             <img
                                 src="/yahya.jpeg"
                                 alt=""
-                                className={`${styles.pic} ${""}`}
+                                className={`${styles.pic}`}
                             />
-
                             <p className={styles.name}>YAHYA</p>
                             <span className={styles.title}>
                                 PROJECT MANAGER<br></br>
@@ -85,7 +76,7 @@ export default function Team() {
                             <img
                                 src="/samuel.jpeg"
                                 alt=""
-                                className={`${styles.pic} ${""}`}
+                                className={`${styles.pic}`}
                             />
                             <p className={styles.name}>SAMUEL</p>
                             <span className={styles.title}>BUSNISS DEVELOPER</span>
@@ -105,7 +96,7 @@ export default function Team() {
                             <img
                                 src="/sevetlana.jpeg"
                                 alt=""
-                                className={`${styles.pic} ${""}`}
+                                className={`${styles.pic}`}
                             />
                             <p className={styles.name}>LANA</p>
                             <span className={styles.title}>MARKETING DIRECTOR</span>
@@ -125,9 +116,8 @@ export default function Team() {
                             <img
                                 src="/samer.jpeg"
                                 alt=""
-                                className={`${styles.pic} ${""}`}
+                                className={`${styles.pic}`}
                             />
-
                             <p className={styles.name}>SAMER</p>
                             <span className={styles.title}>Front-end-developer</span>
                             <button onClick={() => flip5()} className={styles.btn}>Read Info</button>
@@ -136,7 +126,6 @@ export default function Team() {
                     <div style={{ transform: side6 ? "rotateY(180deg)" : "" }} className={`${styles.holder} ${"flex flex-col items-center w-full  text-center "}`}>
                         <div className={styles.back}>
                             <h1>back</h1>
-
                             <h1>orem Ipsum is simply dummy text of the printing and typesetting industry.
                                 Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
                             </h1>
@@ -147,9 +136,8 @@ export default function Team() {
                             <img
                                 src="/samuel.jpeg"
                                 alt=""
-                                className={`${styles.pic} ${""}`}
+                                className={`${styles.pic}`}
                             />
-
                             <p className={styles.name}>SAMUEL</p>
                             <span className={styles.title}>BUSNISS DEVELOPER</span>
                             <button onClick={() => flip6()} className={styles.btn}>Read Info</button>
