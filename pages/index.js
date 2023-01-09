@@ -9,7 +9,7 @@ import { useState } from "react";
 export default function Home() {
   const [side, setside] = useState(false);
   const [side2, setside2] = useState(false);
-  const [side3, setside3] = useState(false);
+  const [side3, setside3] = useState(false); 
   const [side4, setside4] = useState(false);
   const [side5, setside5] = useState(false);
   const [side6, setside6] = useState(false);
